@@ -26,6 +26,7 @@ const appendNews = ()=>{
     let news = JSON.parse(localStorage.getItem("news"));
 
     let box = create("div");
+    box.className = "news";
 
     let img = create("img");
     img.src = news[0];
